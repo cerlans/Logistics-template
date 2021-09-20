@@ -1,0 +1,84 @@
+#heroImage {
+  height:auto;
+  background-image: url('https://i.vgy.me/17CvqI.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+#heroImage button {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #fbbf24 5%, #ffab23 100%);
+	background-color:#fbbf24;
+	border-radius:2px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+  text-transform: uppercase;
+  width:150px;
+}
+
+
+
+        
+
+#overlayBackground {
+  background-image: url('https://i.vgy.me/GwJAUV.jpg');
+  height:auto;
+  background-position: top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom:2rem;
+}
+
+
+.icons{
+  width:80px;
+  height:80px;
+}
+
+#psuedo::after {
+  color:#f59e0b;
+  font-family: 'Font Awesome 5 Free';
+  font-size:2.1rem;
+  content: "\f7a4";
+  font-weight: 600; /* <-- add this or 400 for other styles */
+  margin-left:1rem;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+#backgroundGradient{
+  background-image: url('https://i.vgy.me/sYqR6w.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#galleryBg{
+  background-image: url('https://i.vgy.me/sYqR6w.jpg');
+}
+
+#finalSection {
+  background: #1a1a1a;
+}
+
+#seperator {
+  background: #fdd008;
+}
+
+
+footer {
+}
